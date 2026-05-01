@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 import {useNavigate} from 'react-router';
 const Register = () => {
 
@@ -45,6 +46,7 @@ const Register = () => {
 
           <button className="button primary-button">Register</button>
         </form>
+     <p>Already have an account? <Link to = '/login'>Login</Link> </p>
       </div>
     </main>
     )
